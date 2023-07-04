@@ -7,4 +7,8 @@ class SecondFragmentNavigatorImpl(private val appNavigator: AppNavigation): Seco
     override fun navigateToSecondFragment(argument: String, callback: () -> String) {
         appNavigator.navigateFirstFeatureToSecondFeature()
     }
+
+    override fun navigateUp() {
+        appNavigator.navigateUp()
+    }
 }

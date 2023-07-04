@@ -7,4 +7,8 @@ class AppNavigationImpl(private val navController: NavController): AppNavigation
     override fun navigateFirstFeatureToSecondFeature() {
         navController.navigate(R.id.action_firstFragment_to_secondFragment)
     }
+
+    override fun navigateUp() {
+        navController.navigateUp()
+    }
 }
