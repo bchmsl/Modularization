@@ -10,7 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/FirstFeature" />
+            <option value="$PROJECT_DIR$/FirstFeatureApi" />
+            <option value="$PROJECT_DIR$/FirstFeatureImpl" />
             <option value="$PROJECT_DIR$/NavigationApi" />
             <option value="$PROJECT_DIR$/SecondFeatureApi" />
             <option value="$PROJECT_DIR$/SecondFeatureImpl" />

@@ -1,4 +1,4 @@
-package com.space.firstfeature
+package com.space.firstfeatureapi
 
 import org.junit.Test
 

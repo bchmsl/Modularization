@@ -14,7 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Modularization"
 include ':app'
-include ':FirstFeature'
+include ':FirstFeatureImpl'
 include ':SecondFeatureApi'
 include ':SecondFeatureImpl'
 include ':NavigationApi'
+include ':FirstFeatureApi'
